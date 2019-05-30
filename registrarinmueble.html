@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Jose Zamora">
+   
+    <title>Registrar Inmueble</title>
+
+   
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+</head>
+  
+  <body >
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">  
+   <img class="mb-4" src="DS_Img.png" alt="" width="36" height="36">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Renta House....... </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Listado de Inmuebles 
+        </a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="listado0.html">Habitaciones</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="listado1.html">Locales</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="listado2.html">Viviendas</a>
+           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="listado3.html">Apartamentos</a> 
+         </div>
+      </li>
+      
+       <li class="nav-item">
+        <a class="nav-link" href="registrarinmueble.html">Registre su Inmueble <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactenos.html">Contactenos <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Salir <span class="sr-only">(current)</span></a>
+      </li>
+            
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+ 
+<div class="container">
+<div class="py-5 text-left">
+<form> 
+    <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputState">Registrar</label>
+            <select id="inputState" class="form-control" required>
+              <option selected>Choose...</option>
+              <option>Habitación</option>
+              <option>Local</option>
+              <option>Vivienda</option>
+               <option>Apartamento</option>
+            </select>
+           </div>
+          <div class="form-group col-md-6">
+            <label for="inputState">Modalidad</label>
+            <select id="inputState" class="form-control" required>
+              <option selected>Choose...</option>
+              <option>Alquiler</option>
+              <option>Compra</option>
+              <option>Venta</option>
+            </select>
+           </div>
+    </div> 
+  <footer class="pt-4 my-md-5 pt-md-5 border-top ">
+
+  
+    <div class="form-group">
+      <label for="inputZip">Direccion</label>
+      <input type="text" class="form-control" id="inputZip" value="" required>
+    </div>
+    <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputState">País</label>
+            <select id="inputState" class="form-control" required>
+              <option selected>Choose...</option>
+              <option>Venezuela</option>
+              <option>Ecuador</option>
+            </select>
+           </div>
+          <div class="form-group col-md-6">
+            <label for="inputState">Ciudad</label>
+            <select id="inputState" class="form-control" required>
+              <option selected>Choose...</option>
+              <option>Quito</option>
+              <option>Caracas</option>
+              </select>
+           </div>
+    </div> 
+
+      <div class="form-row">
+         <div class="class="form-group col-md-6">
+            <label for="inputZip">Superficie (Mts2)</label>
+            <input type="text" class="form-control" id="inputZip" value="" required>
+         </div>
+          <div class="class="form-group col-md-6">
+            <label for="inputZip">Nro de Publición</label>
+            <input type="text" class="form-control" id="inputZip" value="10451185" disabled="">
+         </div>
+         <div class="class="form-group col-md-6">
+            <label for="inputZip">Asesor Inmobiliario</label>
+            <input type="text" class="form-control" id="inputZip" value="José Zamora" disabled="">
+         </div>
+    </div>   
+    
+     </footer>
+     <div class="alert alert-primary" role="alert">
+      <h7 align="center" >Servicios Disponibles</h7>
+   </div>
+   
+          
+
+<div class="container">
+<div class="py-5 text-left"> 
+ 
+<div class="card-group">
+    <div class="card">
+    
+        <div class="card-body">
+       
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="same-address">
+                  <label class="custom-control-label" for="same-address">Baño</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="save-info">
+                  <label class="custom-control-label" for="save-info">Agua</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="luz">
+                  <label class="custom-control-label" for="luz">Luz Electrica</label>
+                </div>
+           
+        </div>
+     </div>
+  <div class="card">
+   
+        <div class="card-body">
+
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="wifi">
+                  <label class="custom-control-label" for="wifi">Wifi</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="amoblado">
+                  <label class="custom-control-label" for="amoblado">Amoblado</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="telefono">
+                  <label class="custom-control-label" for="telefono">Telefono</label>
+                </div>
+      </div>
+  </div>
+
+    <div class="card">
+   
+        <div class="card-body">
+                <h5>Derecho a:</h5>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="lavar">
+                  <label class="custom-control-label" for="lavar">Lavar</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="cocina">
+                  <label class="custom-control-label" for="cocina">Cocinar</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="plancha">
+                  <label class="custom-control-label" for="plancha">Plancar</label>
+                 </div>
+                  <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="cable">
+                  <label class="custom-control-label" for="cable">Cable</label>
+                 </div>
+      </div>
+  </div>
+
+  <div class="card">
+   
+        <div class="card-body">
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Otros Servicios:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>    
+      </div>
+  </div>
+
+</div>
+
+</div>
+
+ <div class="alert alert-primary" role="alert">
+      <h7 align="center" >Sección de Fotos: Las imagenes deben ser en formato JPG o PNG</h7>
+   </div>
+
+
+<div class="custom-file">
+  <input type="file" class="custom-file-input" id="customFile">
+  <label class="custom-file-label" for="customFile">Seleccione una Imagen</label>
+</div>
+
+<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Imagen 1</text></svg>
+            <div class="card-body">
+              <p class="card-text">Imagen 1.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Imagen 2</text></svg>
+            <div class="card-body">
+              <p class="card-text">Imagen 2.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Imagen 3</text></svg>
+            <div class="card-body">
+              <p class="card-text">Imagen 3.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+</div>
+     
+ <button type="submit" class="btn btn-primary">Sign in</button>
+  <input class="btn btn-primary" type="reset" value="Reset">
+  <a class="btn btn-primary" href="index.html" role="button">Cancelar</a>
+
+</form>  
+</div>
+</div>  
+<div class="alert alert-primary" role="alert">
+					<div id="copyright">Copyright 2019   <a href="http://www.dsrentahouse.net/">WWW.DSRENTAHOUSE.NET .</a>  Todos los derechos reservados <a href="http://www.dsrentahouse.net/index.php/home/categories/11-habitaciones-en-alquiler-en-caracas/ads">HABITACIONES EN ALQUILER  CARACAS - QUITO</a>  </div>	</div>
+<script src="js/jquery.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+</body>
+</html>
