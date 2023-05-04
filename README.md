@@ -17,13 +17,10 @@ Objetivo del proyecto: Proyecto final del módulo 5, aplicando los conceptos
 ## Eclipse : Version: 2023-03 (4.27.0)
 
 
-## BBDD
-MySQL WorkBench 8.0 (Comunity)
+## BBDD: MySQL WorkBench 8.0 (Comunity)
 Script de la Base de Datos: bdlydb2
 
-
-## Java Enviroment
-JDK 17
+## Java Enviroment: JDK 17
 
 ## Herramientas Implementadas
 
