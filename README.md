@@ -2,7 +2,7 @@
 
 # Integrantes:
 Cristian Carrillo,
-Matias,
+Matias Calderón,
 José Zamora.
 
 # SprintM6
