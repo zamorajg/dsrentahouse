@@ -1,4 +1,4 @@
-![logoJava](https://w7.pngwing.com/pngs/977/614/png-transparent-safety-first-signage-illustration-occupational-safety-and-health-hazard-construction-site-safety-safe-text-technic-logo-thumbnail.png)
+![logoJava](https://www.wsafeingenieria.com/images/servicios/otros/salud-ocupacional-safe-ingenieria.jpg)
 
 # Integrantes:
 Cristian Carrillo,
